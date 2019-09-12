@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>OLX Clone</title>
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="homeStyle.css">
+</head>
+<body>
+
+		<!-- NAVBAR -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	   	<div class="container-fluid">
+	      	<div class="navbar-header" id="container">
+	       		<a class="navbar-brand" href="#">OLX Clone</a>
+	      	</div>
+	      	<div id="navbar" class="navbar-collapse collapse">
+		        <ul class="navtop nav navbar-nav navbar-right">
+		          <li class="active"><a href="#">Home</a></li>
+		          <li><a href="{{url_for('register')}}">Buy an Item</a></li>
+		          <li><a href="{{url_for('register')}}">Sell an Item</a></li>
+		          <li><a href="{{url_for('register')}}">About us</a></li>
+		          
+		        </ul>
+	     	</div>
+	    </div>
+ 	</nav>
+{% block content %}{% endblock %}
+ 		<!-- CONTENT -->
+
+ 	<div class="body">
+	 	<div class="tagline">
+	 		Lorem ipsum dolor sit amet sed do eiusmod
+	 		tempor incididunt 
+	 	</div>
+	 	<div class="start-button">
+	 		<span>Get Start</span> 
+	 	</div>
+	 	
+ 	</div>
+
+ 		<!-- FOOTER -->
+
+ 	<footer>
+ 		<div class="footer">
+ 			<div>
+ 				logo
+ 			</div>
+ 			<div>
+ 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 				 
+ 			</div>
+ 			<div>
+ 				Lorem ipsum dolor sit amet, consectetur adipisiclit anim id est laborum.
+ 			</div>
+ 		</div>
+ 		<div class="copyright">
+ 			Copyright &copy; 2019 <br>
+ 			All rights reserved.
+ 		</div>
+ 	</footer>
+<!-- <script type="text/javascript" src="script.js"></script> -->
+</body>
+</html>
